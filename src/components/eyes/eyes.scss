@@ -1,0 +1,32 @@
+body {
+    cursor: none;
+    /* Hide default cursor */
+}
+
+.eyes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* Allows cursor to be above the sticker */
+}
+
+.eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.left-eye {
+    top: 50px;
+    left: 50px;
+}
+
+.right-eye {
+    top: 50px;
+    left: 100px;
+}
