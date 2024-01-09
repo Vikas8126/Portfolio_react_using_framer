@@ -13,16 +13,25 @@
 
         .textContainer{
             width: 50%;
-            height: 90%;
+            height: 80%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 40px;
         }
+        .skillsContainer{
+            width: 50%;
+            margin-top: 30px;
+                height: 10%;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: flex-start;
+                gap: 30px;
+        }
         h2{
 font-size: 40px;
 color:rgb(48, 48, 48);
-// letter-spacing: 10px;
 
         }
         h1{

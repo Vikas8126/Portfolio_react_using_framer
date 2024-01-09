@@ -4,6 +4,8 @@ import Navbar from "./components/navbar/navbar";
 import Parallax from "./components/parallax/Parallax";
 // import Services from "./components/services/services";
 import Sidebar from "./components/sidebar/Sidebar";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
 
 const App = () => {
   return (
@@ -14,7 +16,10 @@ const App = () => {
         <Hero />
       </section>
       <section id="About">
-        <Parallax type="About" />
+        <About />
+      </section>
+      <section id="Skills">
+        <Skills />
       </section>
       {/* <section id="About">
         <Services />
