@@ -108,10 +108,7 @@ const Skills = () => {
         background: "white",
       }}
       //   style={{
-      //     background:
-      //       type === "About"
-      //         ? "linear-gradient(180deg, white, black)"
-      //         : "linear-gradient(180deg, black, white)",
+      //     background: "linear-gradient(180deg, white, black)",
       //   }}
     >
       <motion.div className="skillCards" style={{ y: yBg }}>
@@ -131,11 +128,6 @@ const Skills = () => {
                     className="skillImg"
                     src={icon}
                   />
-                  <div style={{ fontSize: 12, marginTop: -5 }}>
-                    <h4 style={{ marginTop: "140px" }}>
-                      {title}, {percentage}%
-                    </h4>
-                  </div>
                 </CircularProgressbarWithChildren>
               </div>
             </motion.div>

@@ -158,20 +158,21 @@ const About = () => {
                   >
                     <h2
                       style={{
-                        fontSize: 28,
+                        fontSize: 30,
                         fontWeight: 600,
                         color: "cadetblue",
                         marginBottom: 6,
                       }}
                     >
-                      Post Graduation
+                      Post Grad
                     </h2>
                     <img src="/graduation.png" style={{ width: 40 }} alt="" />
                   </div>
                   <h3
                     style={{
+                      marginTop: 20,
                       fontSize: 20,
-                      fontWeight: 200,
+                      fontWeight: 400,
                       color: "black",
                     }}
                   >
@@ -191,20 +192,21 @@ const About = () => {
                   >
                     <h2
                       style={{
-                        fontSize: 28,
+                        fontSize: 30,
                         fontWeight: 600,
                         color: "cadetblue",
                         marginBottom: 6,
                       }}
                     >
-                      Bachelor of Technology
+                      B.Tech
                     </h2>
                     <img src="/graduation.png" style={{ width: 40 }} alt="" />
                   </div>
                   <h3
                     style={{
+                      marginTop: 20,
                       fontSize: 20,
-                      fontWeight: 200,
+                      fontWeight: 400,
                       color: "black",
                     }}
                   >

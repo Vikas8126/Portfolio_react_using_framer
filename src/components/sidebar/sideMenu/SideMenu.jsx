@@ -25,7 +25,7 @@ const itemVariants = {
   },
 };
 const SideMenu = () => {
-  const items = ["HomePage", "About", "Portfolio", "Contact"];
+  const items = ["HomePage", "About", "Skills", "Portfolio", "Contact"];
 
   return (
     <motion.div className="sideMenu" variants={variants}>

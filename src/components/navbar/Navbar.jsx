@@ -21,6 +21,13 @@ const Navbar = () => {
             About
           </motion.a>
           <motion.a
+            href="#Skills"
+            animate={{ x: -200, opacity: 1, transition: { duration: 1 } }}
+          >
+            {/* <img src="../../../public/facebook.png" alt="" /> */}
+            Skills
+          </motion.a>
+          <motion.a
             href="#Portfolio"
             animate={{ x: -200, opacity: 1, transition: { duration: 1 } }}
           >
