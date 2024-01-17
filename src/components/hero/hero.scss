@@ -1,3 +1,4 @@
+@media (min-width: 769px) {
 .hero{
     height: calc(100vh - 80px);
     overflow: hidden;
@@ -58,7 +59,7 @@ color:rgb(48, 48, 48);
         }
     }
 .imageContainer {
-    height: 50%;
+    // height: 50%;
     width: 25%;
     position: absolute;
     top: 40%;
@@ -81,5 +82,128 @@ color:rgb(48, 48, 48);
 color: rgb(230, 230, 230);
     width: 50%;
     font-weight:bold ;
+}
+}
+}
+
+@media (max-width: 768px) {
+        .hero {
+            height: calc(100vh - 80px);
+            overflow: hidden;
+            font-family: "Josefin Sans", sans-serif;
+            // background:linear-gradient(180deg, white, #404040);
+            background: white;
+            position: relative;
+    
+    
+            .wrapper {
+                max-width: 100%;
+                height: 100%;
+                margin: auto;
+                padding: 0px 10px 0px 10px;
+    
+                .textContainer {
+                    width: 100%;
+                        height: 80%;
+                        margin-top: 30%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 40px;
+                        
+                    
+                }
+    
+                .skillsContainer {
+                    width: 100%;
+                    margin-top: 30px;
+                    height: 10%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    align-items: flex-start;
+                    gap: 22px;
+                    overflow-x: scroll;
+                }
+
+                                .skillsContainer::-webkit-scrollbar {
+                                    width: 0;
+                                    /* Remove scrollbar width */
+                                    height: 0;
+                                    /* Remove scrollbar height */
+                                }
+                
+                                .skillsContainer::-webkit-scrollbar-thumb {
+                                    background-color: transparent;
+                                    /* Make scrollbar thumb transparent */
+                                }
+                
+                                .skillsContainer::-webkit-scrollbar-track {
+                                    background-color: transparent;
+                                    /* Make scrollbar track transparent */
+                                }
+    
+                h2 {
+                    text-align: center;
+                    font-size: 26px;
+                    color: rgb(48, 48, 48);
+    
+                }
+    
+                h1 {
+                    text-align: center;
+                    font-size: 46px;
+                    color: black;
+                }
+    
+                .buttons {
+                    button {
+                        padding: 20px;
+                        height: 8vh;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        background-color: transparent;
+                        color: black;
+                        ;
+                        margin-right: 20px;
+                        cursor: pointer;
+                        font-weight: 300;
+                    }
+                }
+    
+                img {
+                    width: 50px;
+                }
+            }
+    
+       
+                .imageContainer {
+                        // height: 22%;
+                        width: 40%;
+                        position: absolute;
+                        top: 20%;
+                        right: 50%;
+                        transform: translate(50%, -50%);
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+            
+    
+            .imageContainer img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+    
+            .slidingContainer {
+                position: absolute;
+                font-size: 15vh;
+                bottom: -20px;
+                white-space: nowrap;
+                // color:#ffffff09;
+                color: rgb(230, 230, 230);
+                width: 50%;
+                font-weight: bold;
+            }
 }
 }

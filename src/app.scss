@@ -1,6 +1,10 @@
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+@media (max-width: 768px) {
+// html{
+//     // scroll-snap-type: y mandatory;
+//     // scroll-behavior: smooth;
+// }
+#Skills {
+    display: none;
 }
 
 * {
@@ -10,7 +14,7 @@ html{
 }
 
 body{
-    background-color: #0c0c1d;
+    background-color: #fff;
     color: lightgray
 }
 
@@ -19,7 +23,38 @@ a{
     color: inherit;
 }
 
-section{
-    height: 100vh;
-    scroll-snap-align: center;
+// section{
+//     height: 100vh;
+//     scroll-snap-align: center;
+// }
+}
+
+@media (min-width: 769px) {
+    html {
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Open Sans" sans-serif;
+    }
+
+    body {
+        background-color: #fff;
+        color: lightgray
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    section {
+        height: 100vh;
+        scroll-snap-align: center;
+    }
+
+    
 }

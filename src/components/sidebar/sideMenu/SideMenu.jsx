@@ -24,8 +24,11 @@ const itemVariants = {
     opacity: 0,
   },
 };
-const SideMenu = () => {
+const SideMenu = ({ setOpen }) => {
   const items = ["HomePage", "About", "Skills", "Portfolio", "Contact"];
+  const handleClick = () => {
+    setOpen((prevOpen) => !prevOpen);
+  };
 
   return (
     <motion.div className="sideMenu" variants={variants}>
@@ -36,6 +39,7 @@ const SideMenu = () => {
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
+          onClick={handleClick}
         >
           {item}
         </motion.a>

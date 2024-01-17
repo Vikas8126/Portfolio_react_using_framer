@@ -144,7 +144,7 @@ const Skills = () => {
         </motion.div>
       ) : (
         <motion.div className="skillText">
-          <motion.h1 style={{ y: yText }}>{"What I do: "}</motion.h1>
+          <motion.h1 style={{ y: yText }}>{"Skills I have: "}</motion.h1>
           <motion.h2 style={{ y: yText }}>
             "As a software developer and UI designer proficient in React and
             Angular, I create engaging and functional digital experiences. I

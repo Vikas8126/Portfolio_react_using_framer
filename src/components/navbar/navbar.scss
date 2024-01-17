@@ -35,3 +35,28 @@
     }
 
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        .wrapper {
+            margin-left: 5px;
+            /* Adjust margin for smaller screens */
+            margin-right: 5px;
+            /* Adjust margin for smaller screens */
+
+            span {
+                font-size: 20px;
+                /* Adjust font size for smaller screens */
+            }
+
+            .social {
+                display: none;
+                font-size: 16px;
+                /* Adjust font size for smaller screens */
+                gap: 10px;
+                /* Adjust gap for smaller screens */
+            }
+        }
+    }
+}

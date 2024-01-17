@@ -36,6 +36,16 @@ const wordVariants = {
 const About = () => {
   const ref = useRef();
   const controls = useAnimation();
+  const handleClick = (type) => {
+    if (type === "linkedin") {
+      window.open(
+        "https://www.linkedin.com/in/vikas-yadav-full-stack/",
+        "_blank"
+      );
+    } else {
+      window.open("https://github.com/Vikas8126", "_blank");
+    }
+  };
 
   return (
     <div
@@ -54,10 +64,9 @@ const About = () => {
         </h1>
       </div>
       <div className="body">
-        <Grid container spacing={2}>
+        <Grid container style={{ margin: 0 }} spacing={2}>
           <Grid className="leftGrid" spacing={2} item md={7}>
             <h1>Personal Information</h1>
-            <br />
             <br />
             <Grid container spacing={2}>
               <Grid item md={6}>
@@ -75,26 +84,29 @@ const About = () => {
                 </h2>
               </Grid>
             </Grid>
-            <Grid container className="buttons" spacing={2}>
-              <Grid
-                style={{ alignItem: "center", textAlign: "center" }}
-                item
-                md={12}
-              >
-                <motion.div
+            <Grid container className="wantText">
+              <Grid item md={12} style={{ margin: 0 }}>
+                <motion.h3
                   variants={textVariants}
                   initial="initial"
                   animate="animate"
                   style={{
-                    fontSize: 22,
+                    // fontSize: 22,
                     fontWeight: 600,
                     color: "cadetblue",
                     marginBottom: 6,
                   }}
                 >
-                  <motion.h3>Want to know more about me?</motion.h3>
-                </motion.div>
+                  Want to know more about me?
+                </motion.h3>
               </Grid>
+            </Grid>
+            <Grid
+              style={{ textAlign: "center" }}
+              container
+              className="buttons"
+              spacing={2}
+            >
               <Grid item md={6}>
                 <button
                   className="centeredButton"
@@ -113,11 +125,25 @@ const About = () => {
                   Download Resume <img src="/download.png" width={25} alt="" />
                 </button>
               </Grid>
+              <Grid item md={12} className="gitLinkedin" style={{}}>
+                <img
+                  style={{ width: 40, marginTop: -5, cursor: "pointer" }}
+                  src="linkedin.png"
+                  alt={`linkedin`}
+                  onClick={() => handleClick("linkedin")}
+                />
+                <img
+                  style={{ width: 40, marginTop: -5, cursor: "pointer" }}
+                  src="github.png"
+                  alt={`github`}
+                  onClick={() => handleClick("github")}
+                />
+              </Grid>
             </Grid>
           </Grid>
           <Grid className="rightGrid" item md={5}>
-            <Grid container spacing={3}>
-              <Grid item md={6}>
+            <Grid container style={{ margin: 0 }} spacing={3}>
+              <Grid item className="gridItem" md={6} sm={3}>
                 <div className="experience">
                   <div
                     style={{
@@ -132,7 +158,7 @@ const About = () => {
                   <h2>Years of Industry Experience</h2>
                 </div>
               </Grid>
-              <Grid item md={6}>
+              <Grid item className="gridItem" md={6} sm={3}>
                 <div className="experience">
                   <div
                     style={{
@@ -147,7 +173,7 @@ const About = () => {
                   <h2>Completed Projects</h2>
                 </div>
               </Grid>
-              <Grid item md={6}>
+              <Grid item className="gridItem" md={6} sm={3}>
                 <div className="experience">
                   <div
                     style={{
@@ -171,7 +197,7 @@ const About = () => {
                   <h3
                     style={{
                       marginTop: 20,
-                      fontSize: 20,
+                      fontSize: 18,
                       fontWeight: 400,
                       color: "black",
                     }}
@@ -181,7 +207,7 @@ const About = () => {
                   </h3>
                 </div>
               </Grid>
-              <Grid item md={6}>
+              <Grid item className="gridItem" md={6} sm={3}>
                 <div className="experience">
                   <div
                     style={{

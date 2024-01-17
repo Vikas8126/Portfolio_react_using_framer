@@ -160,7 +160,7 @@ const Hero = () => {
                   onHoverEnd={() => setSelectedSkill(null)}
                 >
                   <img
-                    style={{ width: 40, marginTop: -5 }}
+                    style={{ width: 40 }}
                     src={skill?.icon}
                     alt={`Skill Icon`}
                     data-tooltip-id="my-tooltip"
@@ -183,7 +183,7 @@ const Hero = () => {
         Full Stack Web Developer
       </motion.div>
       <div className="imageContainer">
-        <img src="/vikas.JPG" alt="" />
+        <img src="/profile.jpg" alt="" />
       </div>
     </div>
   );
