@@ -1,6 +1,6 @@
 import "./app.scss";
 import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
