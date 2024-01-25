@@ -23,6 +23,7 @@
         font-size: 20px;
         gap: 50px;
         color: white;
+        margin: 0px -10rem;
     }
 
     a{
@@ -52,10 +53,9 @@
 
             .social {
                 display: none;
-                font-size: 16px;
-                /* Adjust font size for smaller screens */
-                gap: 10px;
-                /* Adjust gap for smaller screens */
+                font-size: 16px;/* Adjust font size for smaller screens */
+                gap: 10px;/* Adjust gap for smaller screens */
+                   
             }
         }
     }

@@ -58,10 +58,11 @@
 }
 
 .portfolio__img {
-    height: auto;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
+    background-color: black;
 }
 
 .portfolio__hover {
@@ -72,6 +73,7 @@
     place-items: center;
     opacity: 0;
     transition: all 0.5s ease;
+    height:250px
 }
 
 .portfolio__item:hover .portfolio__hover {
@@ -80,13 +82,27 @@
 
 .portfolio__title {
     color: white;
-    font-size: 56px;
+    font-size: 46px;
     font-weight: bold;
+    margin: 20px;
     transform: translateY(-20px);
     transition: all 0.5s ease;
 }
 
 .portfolio__item:hover .portfolio__title {
+    transform: translateY(0);
+}
+
+.portfolio__title1{
+color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+
+.portfolio__item:hover .portfolio__title1 {
     transform: translateY(0);
 }
 

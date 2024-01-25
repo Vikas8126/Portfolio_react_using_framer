@@ -1,8 +1,9 @@
 const portfolioData = [
   {
     id: 1,
-    img: "/people.webp",
-    title: "Photo Editing",
+    img: "/easyBuy1.png",
+    type: "img",
+    title: "EasyBuy Home Page",
     details: [
       {
         icon: "📄",
@@ -10,155 +11,136 @@ const portfolioData = [
         desc: "Photo",
       },
       {
-        icon: "👤",
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
         icon: "💻",
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML, CSS, JavaScript, ReactJs, MongoDB, Express, NodeJS",
       },
       {
         icon: "🔗",
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Vikas8126/Webinators_EasyBuy",
       },
     ],
   },
 
   {
     id: 2,
-    img: "/people.webp",
-    title: "Website Design",
+    img: "/easyBuy2.png",
+    type: "img",
+    title: "EasyBuy Product Page",
     details: [
       {
         icon: "📄",
         title: "Project : ",
         desc: "Website",
       },
-      {
-        icon: "👤",
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: "💻",
         title: "Language : ",
-        desc: "React JS",
+        desc: "HTML, CSS, JavaScript, ReactJs, MongoDB, Express, NodeJS",
       },
       {
         icon: "🔗",
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Vikas8126/Webinators_EasyBuy",
       },
     ],
   },
 
   {
     id: 3,
-    img: "/people.webp",
-    title: "Video Editing",
+    img: "/public/easybuyVideo.mp4",
+    type: "video",
+    title: "EasyBuy Contact Page",
     details: [
       {
         icon: "📄",
         title: "Project : ",
         desc: "Video",
       },
-      {
-        icon: "👤",
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: "💻",
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML, CSS, JavaScript, ReactJs, MongoDB, Express, NodeJS",
       },
       {
         icon: "🔗",
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Vikas8126/Webinators_EasyBuy",
       },
     ],
   },
 
   {
     id: 4,
-    img: "/people.webp",
-    title: "Video Editing",
+    img: "/movies1.png",
+    type: "img",
+    title: "Movies Nation",
     details: [
       {
         icon: "📄",
         title: "Project : ",
         desc: "Video",
       },
-      {
-        icon: "👤",
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: "💻",
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML, CSS, JavaScript, ReactJs, GraphQL, PostgreSQL, Prisma",
       },
       {
         icon: "🔗",
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Vikas8126/CRUD_GraphQL_PostgreSQL",
       },
     ],
   },
 
   {
     id: 5,
-    img: "/people.webp",
-    title: "Landing Page",
+    img: "/movies4.png",
+    type: "img",
+    title: "Movies Nation",
     details: [
       {
         title: "Project : ",
         desc: "Website",
       },
-      {
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "HTML, CSS, JavaScript, ReactJs, GraphQL, PostgreSQL, Prisma",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Vikas8126/CRUD_GraphQL_PostgreSQL",
       },
     ],
   },
 
   {
     id: 6,
-    img: "/people.webp",
-    title: "Photo Editing",
+    img: "/public/moviesappvideo.mp4",
+    type: "video",
+    title: "Movies Nation",
     details: [
       {
         icon: "📄",
         title: "Project : ",
         desc: "Photo",
       },
-      {
-        icon: "👤",
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: "💻",
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML, CSS, JavaScript, ReactJs, GraphQL, PostgreSQL, Prisma",
       },
       {
         icon: "🔗",
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "https://github.com/Vikas8126/CRUD_GraphQL_PostgreSQL",
       },
     ],
   },

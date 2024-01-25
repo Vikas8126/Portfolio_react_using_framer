@@ -22,7 +22,7 @@ const Skills = () => {
       percentage: "85",
       experience: "3+ years",
       description:
-        "Angular is a powerful front-end framework developed by Google. With over three years of experience, I've crafted dynamic and scalable web applications using Angular, harnessing its powerful features like two-way data binding and dependency injection to deliver seamless user experiences.",
+        "I have 3 years of experience in Angular. I have single-handedly worked on creating and managing Angular websites during my term in Infosys. I have worked on Angular 8 and above thereby successfully completing more than 10 projects on the framework.",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Skills = () => {
       percentage: "85",
       experience: "4+ years",
       description:
-        "React is a popular JavaScript library that I've extensively used for over four years to build efficient and interactive user interfaces. Leveraging its component-based architecture and virtual DOM, I've developed high-performing applications, ensuring reusability and maintainability across various projects.",
+        "I've extensively React used for over four years to build efficient and interactive user interfaces. Leveraging its component-based architecture and virtual DOM, I've developed high-performing applications, ensuring reusability and maintainability across various projects.",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Skills = () => {
       percentage: "90",
       experience: "4+ years",
       description:
-        "As a React Native developer for over two years, I've specialized in creating cross-platform mobile applications. Using React Native's single codebase, I've developed intuitive and responsive mobile apps with native-like performance, catering to diverse user needs and requirements.",
+        "Having worked with HTML for several years, I've honed my skills in crafting the fundamental structure of web pages and applications. HTML is like the skeleton of all the websites and apps out there, and I've got a real knack for laying down this groundwork. By combining HTML with other technologies like CSS and JavaScript, I create not just functional but visually appealing and interactive web experiences. Whether it's building a simple static page or integrating complex elements into web applications, I ensure that the foundation is strong, accessible, and up to the latest web standards.",
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ const Skills = () => {
       percentage: "90",
       experience: "4+ years",
       description:
-        "Python has been my go-to language for over three years. I've utilized its simplicity and readability to develop diverse applications, from web development to data analysis and machine learning, achieving efficient and scalable solutions.",
+        "As a CSS enthusiast and having more than 4 years of experience, I excel in transforming basic web layouts into stunning, responsive designs. My expertise lies in creating fluid layouts with Flexbox and Grid, crafting engaging animations, and ensuring cross-browser compatibility. I focus on clean, maintainable CSS to deliver visually appealing and user-friendly experiences.",
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ const Skills = () => {
       percentage: "80",
       experience: "3+ years",
       description:
-        "My experience with RESTful APIs spans over three years. I've designed and implemented RESTful architectures, ensuring interoperability between various systems. Leveraging REST principles, I've facilitated communication between client and server, delivering scalable and reliable web services.",
+        "With a strong foundation in TypeScript and more than 4 years of experience, I enhance JavaScript codebases by bringing in robust typing and improved scalability. My experience with TypeScript involves creating more maintainable and error-free code, leveraging its powerful type system for better project structuring and developer productivity.",
     },
     {
       id: 7,
@@ -86,7 +86,7 @@ const Skills = () => {
       percentage: "80",
       experience: "1+ years",
       description:
-        "C# has been a fundamental part of my development journey for over two years. With its versatility and robustness, I've built desktop, web, and gaming applications, ensuring high performance and code reliability.",
+        "Over my two years of working with PostgreSQL, I've honed my skills in managing and designing databases with efficiency and precision. My experience includes crafting optimized queries, designing relational schemas, and implementing robust data storage solutions. I value PostgreSQL for its reliability and advanced features, which have enabled me to handle complex data requirements effectively.",
     },
     {
       id: 9,
