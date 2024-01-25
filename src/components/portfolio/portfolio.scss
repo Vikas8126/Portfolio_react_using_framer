@@ -20,14 +20,14 @@
     height: 100vh;
     h1 {
             text-align: center;
-            color: #fff;
+            color: black;
             font-size: 48px;
             text-transform: uppercase;
             font-weight: 700;
             font-family: "Josefin Sans", sans-serif;
             background: linear-gradient(to left, white, grey);
             background-size: 200% auto;
-            color: #fff;
+           
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -66,7 +66,7 @@
 }
 
 .portfolio__hover {
-    background-color: lightblue;
+    background-color: lightgray;
     position: absolute;
     inset: 0;
     display: grid;
@@ -81,7 +81,7 @@
 }
 
 .portfolio__title {
-    color: white;
+    color: black;
     font-size: 46px;
     font-weight: bold;
     margin: 20px;
@@ -94,7 +94,7 @@
 }
 
 .portfolio__title1{
-color: white;
+color: black;
     font-size: 22px;
     font-weight: bold;
     margin: 20px;
@@ -117,7 +117,7 @@ color: white;
 }
 
 .portfolio__modal-content {
-    background-color:cadetblue;
+    background-color:lightgray;
     max-width: 650px;
     width: 100%;
     padding: 32px;
@@ -136,7 +136,7 @@ color: white;
 
 .modal__title {
     text-align: center;
-    color: hsl(244,60%,46%);
+    color:black;
     font-size: 24px;
     letter-spacing: 2px;
     margin-bottom: 24px;
@@ -160,7 +160,7 @@ color: white;
 
 .item__title,
 .item__details {
-    color: hsl(0, 0%, 100%);
+    color: black;
     font-size: 14px;
 }
 
@@ -197,14 +197,13 @@ color: white;
 
         h1 {
             text-align: center;
-            color: #fff;
+            color: black;
             font-size: 28px;
             text-transform: uppercase;
             font-weight: 700;
             font-family: "Josefin Sans", sans-serif;
             background: linear-gradient(to left, white, grey);
             background-size: 200% auto;
-            color: #fff;
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -242,7 +241,7 @@ color: white;
     }
 
     .portfolio__hover {
-        background-color: cadetblue;
+        background-color: lightgray;
         position: absolute;
         inset: 0;
         display: grid;
@@ -256,7 +255,7 @@ color: white;
     }
 
     .portfolio__title {
-        color: white;
+        color: black;
         font-size: 56px;
         font-weight: bold;
         transform: translateY(-20px);
@@ -278,7 +277,7 @@ color: white;
     }
 
     .portfolio__modal-content {
-        background-color: cadetblue;
+        background-color: lightgray;
         max-width: 650px;
         // width: 100%;
         padding: 32px;
@@ -297,7 +296,7 @@ color: white;
 
     .modal__title {
         text-align: center;
-        color: hsl(244, 60%, 46%);
+        color: black;
         font-size: 24px;
         letter-spacing: 2px;
         margin-bottom: 24px;
@@ -321,7 +320,7 @@ color: white;
 
     .item__title,
     .item__details {
-        color: hsl(0, 0%, 100%);
+        color: black;
         font-size: 14px;
     }
 

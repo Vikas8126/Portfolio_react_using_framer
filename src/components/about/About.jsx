@@ -58,10 +58,7 @@ const About = () => {
       }}
     >
       <div className="header">
-        <h1>
-          <span style={{ color: "black" }}>About</span>{" "}
-          <b style={{ color: "cadetblue" }}>Me</b>
-        </h1>
+        <h1 className="section__title">About Me</h1>
       </div>
       <div className="body">
         <Grid container style={{ margin: 0 }} spacing={2}>
@@ -93,7 +90,7 @@ const About = () => {
                   style={{
                     // fontSize: 22,
                     fontWeight: 600,
-                    color: "cadetblue",
+                    color: "grey",
                     marginBottom: 6,
                   }}
                 >
@@ -182,16 +179,16 @@ const About = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <h2
+                    <h1
                       style={{
                         fontSize: 30,
                         fontWeight: 600,
-                        color: "cadetblue",
+                        color: "grey",
                         marginBottom: 6,
                       }}
                     >
                       Post Grad
-                    </h2>
+                    </h1>
                     <img src="/graduation.png" style={{ width: 40 }} alt="" />
                   </div>
                   <h3
@@ -216,16 +213,16 @@ const About = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <h2
+                    <h1
                       style={{
                         fontSize: 30,
                         fontWeight: 600,
-                        color: "cadetblue",
+                        color: "grey",
                         marginBottom: 6,
                       }}
                     >
                       B.Tech
-                    </h2>
+                    </h1>
                     <img src="/graduation.png" style={{ width: 40 }} alt="" />
                   </div>
                   <h3
