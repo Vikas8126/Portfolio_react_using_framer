@@ -107,7 +107,9 @@ const About = () => {
               <Grid item md={6}>
                 <button
                   className="centeredButton"
-                  onClick={() => window.open("/VikasYadavResume.pdf", "_blank")}
+                  onClick={() =>
+                    window.open("/VikasYadavResumeJan.pdf", "_blank")
+                  }
                 >
                   See Resume <img src="/share.png" width={25} alt="" />
                 </button>
@@ -116,7 +118,7 @@ const About = () => {
                 <button
                   className="centeredButton"
                   onClick={() =>
-                    window.open("/VikasYadavResume.docx", "_blank")
+                    window.open("/VikasYadavResumeJan.docx", "_blank")
                   }
                 >
                   Download Resume <img src="/download.png" width={25} alt="" />

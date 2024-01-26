@@ -9,28 +9,28 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-  // useEffect(() => {
-  //   const disableRightClick = (event) => {
-  //     event.preventDefault();
-  //   };
+  useEffect(() => {
+    const disableRightClick = (event) => {
+      event.preventDefault();
+    };
 
-  //   const disableF12Key = (event) => {
-  //     if (
-  //       event.keyCode === 123 ||
-  //       (event.ctrlKey &&
-  //         event.shiftKey &&
-  //         (event.keyCode === 73 || event.keyCode === 74))
-  //     ) {
-  //       event.preventDefault();
-  //     }
-  //   };
-  //   document.addEventListener("contextmenu", disableRightClick);
-  //   document.addEventListener("keydown", disableF12Key);
-  //   return () => {
-  //     document.removeEventListener("contextmenu", disableRightClick);
-  //     document.removeEventListener("keydown", disableF12Key);
-  //   };
-  // }, []);
+    const disableF12Key = (event) => {
+      if (
+        event.keyCode === 123 ||
+        (event.ctrlKey &&
+          event.shiftKey &&
+          (event.keyCode === 73 || event.keyCode === 74))
+      ) {
+        event.preventDefault();
+      }
+    };
+    document.addEventListener("contextmenu", disableRightClick);
+    document.addEventListener("keydown", disableF12Key);
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+      document.removeEventListener("keydown", disableF12Key);
+    };
+  }, []);
   return (
     <div>
       <Sidebar></Sidebar>

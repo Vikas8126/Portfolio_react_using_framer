@@ -30,6 +30,10 @@ const PortfolioItem = ({ img, title, type, details }) => {
   };
 
   useEffect(() => {
+    console.log(details, "details");
+  }, []);
+
+  useEffect(() => {
     if (showModal) {
       document.addEventListener("mousedown", handleClickOutside);
     }
@@ -56,21 +60,36 @@ const PortfolioItem = ({ img, title, type, details }) => {
             />
             <h3 className="modal__title">{title}</h3>
             <ul className="modal__list grid">
-              {details?.map(({ icon, title, desc }, index) => {
-                return (
-                  <li className="modal__item" key={index}>
-                    <span className="item__icon">{icon}</span>
-
-                    <div>
-                      <span className="item__title">{title}</span>
-                      <a href={desc} className="item__details" target="_blank">
-                        {desc}
-                      </a>
-                    </div>
-                  </li>
-                );
-              })}
+              <li className="modal__item">
+                <div>
+                  <span className="item__details">Title : </span>
+                  <span className="item__title">{details?.title}</span>
+                </div>
+              </li>
             </ul>
+            <ul className="modal__list grid">
+              <li className="modal__item">
+                <div>
+                  <span className="item__details">Languages : </span>
+                  <span className="item__title">{details?.languages}</span>
+                </div>
+              </li>
+            </ul>
+            <ul className="modal__list grid">
+              <li className="modal__item">
+                <div>
+                  <span className="item__details">Preview : </span>
+                  <a
+                    href={details?.desc}
+                    className="item__title"
+                    target="_blank"
+                  >
+                    {details?.desc}
+                  </a>
+                </div>
+              </li>
+            </ul>
+
             {renderMedia()}
           </div>
         </div>
